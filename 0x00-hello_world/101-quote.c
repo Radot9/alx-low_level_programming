@@ -3,6 +3,8 @@
 /*
  * main - Entry point
  *
+ * Description: This code prints a line to the standard error
+ *
  * Return: 1 (sucessful)
  */
 int main(void)
