@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
-/*
- * main - Entry point
+/**
+ * main - Entry point for the program
  *
- * Description: This code prints a line to the standard error
+ * Description: This program prints a line to standard error
  *
- * Return: 1 (sucessful)
+ * Return: 1 (Success)
  */
 int main(void)
 {
