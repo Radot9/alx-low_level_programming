@@ -17,6 +17,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		free(ptr);
 		return (NULL);
 	}
+<<<<<<< HEAD
 	if (ptr == NULL)
 		ptr = malloc(new_size);
 
@@ -28,3 +29,5 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 	return (ptr);
 }
+=======
+>>>>>>> 5c861272c085276559010bac1635df9ef8e6668f
